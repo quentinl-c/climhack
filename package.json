@@ -1,0 +1,28 @@
+{
+  "name": "eco-district",
+  "version": "1.0.0",
+  "description": "Climhack 2015 - Nancy",
+  "main": "index.js",
+  "dependencies": {
+    "express":"4.13.3",
+    "json-file":"0.1.0",
+    "events":"1.1.0",
+    "ejs":"2.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinl-c/climhack.git"
+  },
+  "keywords": [
+    "climhack"
+  ],
+  "author": "Dream team",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/quentinl-c/climhack/issues"
+  },
+  "homepage": "https://github.com/quentinl-c/climhack#readme"
+}
