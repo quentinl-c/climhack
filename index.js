@@ -1,4 +1,5 @@
 var express = require('express');
+var port = process.env.PORT || 1337;
 var app = express();
 var http = require('http').Server(app);
 var json = require('json-file');
@@ -139,7 +140,7 @@ var jsonShapes = json.read('./data/shapes.json');
 app.use("/assets", express.static(__dirname + '/assets'));
 app.use("/views", express.static(__dirname + '/views'));
 
-http.listen(3000, function(){
+http.listen(port, function(){
 	process();
 	console.log('listening on *:3000');
 });

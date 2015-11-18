@@ -4,12 +4,11 @@
 	<meta charset="UTF-8">
 	<title>Ecodistrict</title>
 
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.css' rel='stylesheet' />
+   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.css' rel='stylesheet' />
 	<link rel="stylesheet" href="../assets/index.css" />
 
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.js'></script>
 	<script type="text/javascript" src="../assets/index.js"></script>
-	
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 	
@@ -41,6 +40,9 @@
 		
 	</div>
 	
+	<div id="min-max-scale">
+		<div class="scale" style="background-color:{{color_min}};"></div><p>Minimum &nbsp; Maximum</p><div class="scale" style="background-color:{{color_max}};"></div>
+	</div>
 	
 	<div id="infobubble-container" ng-if="infobubble" class="animated fadeIn">
 		<div id="infobubble" class="animated bounceIn">
